@@ -6,7 +6,7 @@ import { IoIosSearch } from "react-icons/io";
 function NavDesktop() {
     return (
         <>
-            <nav className='hidden xl:block sticky top-10 z-50'>
+            <nav className='hidden gx:block sticky top-10 z-50'>
                <div className='container'>
                  <div className='flex justify-between items-center bg-white border-2 border-white border-solid shadow-[0_10px_40px_rgba(30,64,175,0.10)] font-lahze rounded-2xl px-4 py-3'>
                     <div className='flex items-center gap-3'>
@@ -22,7 +22,7 @@ function NavDesktop() {
                         </div>
                     </div>
                     <div>
-                        <ul className='xl:flex items-center gap-8'>
+                        <ul className='gx:flex items-center gap-8'>
                             <li className='navLink'>
                                 <Link href=''>کیف پول</Link>
                             </li>
@@ -43,7 +43,7 @@ function NavDesktop() {
                             </li>
                         </ul>
                     </div>
-                    <div className='xl:flex items-center gap-3'>
+                    <div className='gx:flex items-center gap-3'>
                        <div className=''>
                          <button className='size-11 flexCenter rounded-2xl bg-white/70 border-2 border-white/70 shadow-sm'>
                             <IoIosSearch size={25}/>

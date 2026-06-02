@@ -13,6 +13,8 @@
 /* theme */
 @theme {
   --font-lahze: "Lahze", sans-serif;
+  --breakpoint-gx: 1100px;
+  --breakpoint-xs: 400px;
 }
 
 
