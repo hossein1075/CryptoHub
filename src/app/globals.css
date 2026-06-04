@@ -27,8 +27,9 @@
     align-items: center;
   }
 
+  /* ul nav desktop */
   .navLink {
-    @apply relative font-medium text-slate-700 transition-colors duration-300
+    @apply relative font-medium text-slate-700 transition-colors duration-300 cursor-pointer
   }
 
   .navLink:hover {
@@ -47,6 +48,11 @@
     transform: scaleX(1)
   }
 
+  /* ul nav sidebar */
+
+  .navLinkSideBar {
+    @apply px-4 py-3 rounded-2xl bg-white/5 hover:bg-white/10 cursor-pointer transition-all duration-300 ease-in-out
+  }
 }
 
 /* elements */
