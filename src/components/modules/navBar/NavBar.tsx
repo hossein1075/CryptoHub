@@ -1,12 +1,13 @@
 import React from 'react'
 import NavDesktop from './NavDesktop'
 import NavMobile from './NavMobile'
-
+import NavBarCryptoPrice from './NavBarCryptoPrice'
 function NavBar() {
   return (
     <header>
-        <NavDesktop/>
-        <NavMobile/>
+      <NavBarCryptoPrice />
+      <NavDesktop />
+      <NavMobile />
     </header>
   )
 }
