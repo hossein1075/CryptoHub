@@ -6,7 +6,7 @@ import { RxCross2 } from 'react-icons/rx'
 function SideBar() {
     return (
         <>
-            <div className='absolute top-0 z-50 bg-slate-900/72 backdrop-blur-[18px] h-screen text-white p-5 font-lahze'>
+            <div className='fixed top-0 right-0 w-full max-w-[400px] z-50 bg-slate-900/72 backdrop-blur-[18px] h-screen text-white p-5 font-lahze'>
                         <div className='flex items-center justify-between mb-6'>
                           <div className='flex items-center gap-3'>
                               <div className='size-11 flexCenter bg-linear-to-br from-blue-600 to-cyan-400 text-white rounded-2xl shadow-lg shadow-blue-500/30'>
