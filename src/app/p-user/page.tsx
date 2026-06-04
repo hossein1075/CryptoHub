@@ -1,8 +1,11 @@
+import MainUser from '@/components/main/mainUser/MainUser'
 import React from 'react'
 
 function UserPanel() {
   return (
-    <h1>UserPanel</h1>
+    <>
+    <MainUser/>
+    </>
   )
 }
 
