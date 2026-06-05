@@ -13,10 +13,14 @@
 /* theme */
 @theme {
   --font-lahze: "Lahze", sans-serif;
+  --font-sans: sans-serif;
   --breakpoint-gx: 1100px;
   --breakpoint-xs: 400px;
   --color-cryptoPrice: #f0f4f9;
   --color-cryptoPriceUp: #2fd66e;
+  --color-linearsec1: #161c2d;
+  --color-linearsec2: #25304a;
+   --radius-20px: 1.25rem; 
   /* --text-18Px: 1.125rem;  */
 }
 
@@ -28,6 +32,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .ltr {
+  direction: ltr;
   }
 
   /* ul nav desktop */
