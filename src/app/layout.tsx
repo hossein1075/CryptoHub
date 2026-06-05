@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { MantineProvider } from "@mantine/core";
+import "@mantine/core/styles.css";
 import NavBar from "@/components/modules/navBar/NavBar";
 
 // export const metadata: Metadata = {
@@ -20,7 +22,9 @@ export default function RootLayout({
         {/* header */}
         <NavBar/>
         {/* main */}
+        <MantineProvider>
         {children}
+        </MantineProvider>
         {/* footer */}
         </body>
     </html>
