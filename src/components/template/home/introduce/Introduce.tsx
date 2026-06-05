@@ -1,27 +1,30 @@
 import React from 'react'
 import { Button } from "@mantine/core";
-import { FaBars } from 'react-icons/fa';
+import { HiBars3 } from 'react-icons/hi2';
 function Introduce() {
     return (
         <>
             <div>
                 <div className='container'>
-                    <div className='flex'>
-                        <div>
-                            <h1>تی ارز، پرداخت بی‌حد و مرز</h1>
-                            <p>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 items-center gap-16 font-lahze'>
+                        <div className='space-y-8 pl-0 lg:pl-10 '>
+                            <h1 className='text-lg md:text-xl lg:text-3xl font-black leading-tight'>تی ارز، پرداخت بی‌حد و مرز</h1>
+                            <p className='leading-[35px] text-justify lg:text-right'>
                                 در تی ارز، مرزی برای پرداخت‌های بین‌المللی وجود ندارد. تمامی پرداخت‌ها از طریق پی‌پال، ویزا، مسترکارت و وایز به صورت هوشمند و آنی انجام می‌شوند. خدمات متنوعی از جمله خرید از سایت‌های خارجی، پرداخت هزینه تعیین وقت سفارت‌ها، شرکت در آزمون‌های بین‌المللی و بسیاری امکانات دیگر تنها با چند کلیک ساده در دسترس شماست.
                             </p>
-                            <div>
-                                <Button>درباره ما</Button>
-                                <Button>
-                                    <FaBars />
+                            <div className='flex flex-row gap-4 justify-end lg:justify-start'>
+                            
+                                <Button variant='white' size='lg' style={{width: '160px'}} className='shadow-sm w-full hover:shadow-md transition-all duration-300 font-bold'>درباره ما</Button>
+                                
+                                <Button size='lg' color='#2563eb' className='shadow-lg shadow-blue-200 font-bold'>
+                                    <HiBars3 className='ml-2'/>
                                     لیست خدمات
                                 </Button>
                             </div>
                         </div>
+                        <div className='relative w-full h-125 flexCenter'>
                         {/* svg background */}
-                        <div>
+                        <div className='absolute inset-0 z-0 flexCenter opacity-40'>
                             <svg className="w-full h-full bg-lines" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M150 500 C 130 350, 180 150, 280 0" stroke="#93c5fd" stroke-width="1.5" stroke-linecap="round"></path>
                             <path d="M220 500 C 200 400, 220 200, 320 0" stroke="#86efac" stroke-width="1.5" stroke-linecap="round"></path>
@@ -29,6 +32,7 @@ function Introduce() {
                             <path d="M350 500 C 400 400, 420 250, 500 100" stroke="#e2e8f0" stroke-width="2" stroke-linecap="round"></path>
                         </svg>
                         </div>  
+                        </div>
                         {/* crypto symble */}
                          {/* <div>
                            <span>€</span>
