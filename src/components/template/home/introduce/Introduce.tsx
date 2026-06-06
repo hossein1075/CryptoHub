@@ -4,7 +4,7 @@ import { HiBars3 } from 'react-icons/hi2';
 function Introduce() {
     return (
         <>
-            <div>
+            <section>
                 <div className='container'>
                     <div className='grid grid-cols-1 lg:grid-cols-2 items-center gap-16 font-lahze'>
                         <div className='space-y-8 pl-0 lg:pl-10 order-2 lg:order-1'>
@@ -26,10 +26,10 @@ function Introduce() {
                         {/* svg background */}
                         <div className='absolute inset-0 z-0 flexCenter opacity-40'>
                             <svg className="w-full h-full bg-lines" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M150 500 C 130 350, 180 150, 280 0" stroke="#93c5fd" strokeWidth="1.5" stroke-linecap="round"></path>
-                            <path d="M220 500 C 200 400, 220 200, 320 0" stroke="#86efac" strokeWidth="1.5" stroke-linecap="round"></path>
-                            <path d="M280 500 C 260 300, 290 180, 400 0" stroke="#fcd34d" strokeWidth="1.5" stroke-linecap="round"></path>
-                            <path d="M350 500 C 400 400, 420 250, 500 100" stroke="#e2e8f0" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M150 500 C 130 350, 180 150, 280 0" stroke="#93c5fd" strokeWidth="1.5" strokeLinecap="round"></path>
+                            <path d="M220 500 C 200 400, 220 200, 320 0" stroke="#86efac" strokeWidth="1.5" strokeLinecap="round"></path>
+                            <path d="M280 500 C 260 300, 290 180, 400 0" stroke="#fcd34d" strokeWidth="1.5" strokeLinecap="round"></path>
+                            <path d="M350 500 C 400 400, 420 250, 500 100" stroke="#e2e8f0" strokeWidth="2" strokeLinecap="round"></path>
                         </svg>
                         </div>  
                         {/* crypto symble */}
@@ -65,8 +65,8 @@ function Introduce() {
                            <div className='absolute left-[-5%] bottom-[15%] ltr w-75 h-40 bg-linear-to-r from-linearsec1 to-linearsec2 rounded-2xl shadow-2xl z-20 p-5 flex flex-col justify-between'>
                             <div className='flex items-start justify-between'>
                                 <svg className="w-10 h-8 opacity-80" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect width="40" height="30" rx="4" fill="#3b82f6" fill-opacity="0.5"></rect>
-                                    <path d="M10 0v30m20-30v30M0 10h40M0 20h40" stroke="#60a5fa" stroke-width="1.5" opacity="0.5"></path>
+                                    <rect width="40" height="30" rx="4" fill="#3b82f6" fillOpacity="0.5"></rect>
+                                    <path d="M10 0v30m20-30v30M0 10h40M0 20h40" stroke="#60a5fa" strokeWidth="1.5" opacity="0.5"></path>
                                 </svg>
                                 <span className='text-white/80 font-medium text-sm'>VISA Master</span>
                             </div>
@@ -100,7 +100,7 @@ function Introduce() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }
