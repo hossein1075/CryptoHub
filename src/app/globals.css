@@ -9,7 +9,6 @@
   font-display: swap;
 }
 
-
 /* theme */
 @theme {
   --font-lahze: "Lahze", sans-serif;
@@ -22,6 +21,7 @@
   --color-linearsec2: #25304a;
   --color-input2: #e8edf4;
    --radius-20px: 1.25rem; 
+   --text-10px: 0.625rem; 
   /* --text-18Px: 1.125rem;  */
 }
 
@@ -86,4 +86,21 @@
 
 @utility container {
   @apply mx-auto px-3.75 max-w-7xl
+}
+
+/* style costume component mantine */
+.m_46b77525 {
+  width: 100%;
+}
+.m_92253aa5 {
+  width: 100% !important;
+  text-align: right !important;
+  padding: 12px 16px !important; /* py-3 px-4 */
+  font-size: 0.875rem !important; /* text-sm */
+  font-weight: 600 !important; /* font-semibold */
+  transition: background-color 150ms ease !important;
+}
+
+.m_92253aa5:hover {
+  background-color: #eff6ff !important;
 }
