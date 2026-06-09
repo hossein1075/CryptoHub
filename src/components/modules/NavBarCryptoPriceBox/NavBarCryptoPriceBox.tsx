@@ -20,7 +20,7 @@ function NavBarCryptoPriceBox() {
 
 export default NavBarCryptoPriceBox
 
-// downsize
+// downsize / loss
 
 {/* <div className='flex items-center gap-2 px-3 rounded-lg hover:bg-cryptoPrice cursor-pointer transition-all duration-300 ease-linear'>
         <span className='size-1.5 rounded-full bg-red-400'></span>
