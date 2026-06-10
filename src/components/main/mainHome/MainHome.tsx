@@ -1,3 +1,4 @@
+import BusinessCrypto from '@/components/template/home/BusinessCrypto/BusinessCrypto'
 import Calculator from '@/components/template/home/Calculator/Calculator'
 import ChargeCrypto from '@/components/template/home/ChargeCrypto/ChargeCrypto'
 import Introduce from '@/components/template/home/introduce/Introduce'
@@ -11,6 +12,7 @@ function MainHome() {
       <Calculator/>
       <ListService/>
       <ChargeCrypto/>
+      <BusinessCrypto/>
     </main>
   )
 }
