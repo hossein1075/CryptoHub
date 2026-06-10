@@ -9,9 +9,7 @@ function ListService() {
                 {/* slider */}
                 <div className='flex items-center py-6'>
                     <ListServiceBox/>
-                    <ListServiceBox/>
-                    <ListServiceBox/>
-                    <ListServiceBox/>
+                    
                 </div>
             </div>
         </section>

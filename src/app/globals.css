@@ -21,11 +21,15 @@
   --color-linearsec2: #25304a;
   --color-input2: #e8edf4;
   --color-boxMobile: #0070ba;
+  --color-shapeMobile: #f4f7fb;
    --radius-20px: 1.25rem; 
    --radius-26px: 1.625rem; 
+   --radius-45px: 2.8125rem; 
+   --text-26px: 1.625rem; 
    --text-10px: 0.625rem; 
    --text-15px: 0.9375rem; 
-  /* --text-18Px: 1.125rem;  */
+   --text-11px: 0.6875rem; 
+   --text-28px: 1.75rem; 
 }
 
 /* class */
