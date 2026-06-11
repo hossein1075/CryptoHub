@@ -4,7 +4,7 @@ import React from 'react'
 
 function ChargeCrypto() {
     return (
-        <section className='mt-15 mb-80 font-lahze'>
+        <section className='mt-15 font-lahze'>
             <div className="container">
                 <div className='text-center mb-16'>
                 <h2 className='mb-2 text-28px md:text-xl lg:text-3xl font-black '>شارژ و نقد حساب های ارزی</h2>
