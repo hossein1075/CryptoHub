@@ -1,3 +1,4 @@
+import BusinessCryptoBox from '@/components/modules/BusinessCryptoBox/BusinessCryptoBox'
 import { Button } from '@mantine/core'
 import Image from 'next/image'
 import React from 'react'
@@ -7,7 +8,7 @@ function BusinessCrypto() {
         <>
             <section className='mt-15 font-lahze'>
                 <div className="container">
-                    <div className='grid grid-cols-1 lg:grid-cols-2 items-center gap-12 font-lahze'>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 items-center gap-12 mb-20 lg:mb-5 font-lahze'>
                         <div className='relative flexCenter hidden lg:block w-full h-125 flexCenter order-2 lg:order-1'>
                             {/* picture */}
                             <Image width={600} height={433} src='/images/home/digital-currency-main-minified.avif' alt='imageBusiness' />
@@ -49,29 +50,14 @@ function BusinessCrypto() {
                         </div>
                     </div>
                     {/* boxCrypto */}
-                    <div>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 items-center gap-4'>
                         {/* box */}
-                        <div>
-                            <div></div>
-                            <div>
-                                <div>
-                                    <span>▼</span>
-                                    {/* ▲ */}
-                                    <span>3.01%</span>
-                                </div>
-                                <div>
-                                    <div>
-                                        <h3>بیت کوین</h3>
-                                        <p>$ 80,269.99</p>
-                                    </div>
-                                    <div>
-                                        <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
-                                            <path d="M14.5 10c1.5 0 2.5-1 2.5-2.5S16 5 14.5 5H8v14h6.5c1.5 0 3-1 3-2.5S16 10 14.5 10zm-4-3h3.5c.5 0 1 .5 1 1s-.5 1-1 1H10.5V7zm4 10h-4v-2h4c.5 0 1 .5 1 1s-.5 1-1 1z"></path>
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <BusinessCryptoBox/>
+                        <BusinessCryptoBox/>
+                        <BusinessCryptoBox/>
+                        <BusinessCryptoBox/>
+                        <BusinessCryptoBox/>
+                        <BusinessCryptoBox/>
                     </div>
                 </div>
             </section>
