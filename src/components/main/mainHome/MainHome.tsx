@@ -2,6 +2,7 @@ import BusinessCrypto from '@/components/template/home/BusinessCrypto/BusinessCr
 import Calculator from '@/components/template/home/Calculator/Calculator'
 import ChargeCrypto from '@/components/template/home/ChargeCrypto/ChargeCrypto'
 import Introduce from '@/components/template/home/introduce/Introduce'
+import ListPriceCrypto from '@/components/template/home/ListPriceCrypto/ListPriceCrypto'
 import ListService from '@/components/template/home/ListService/ListService'
 import React from 'react'
 
@@ -13,6 +14,7 @@ function MainHome() {
       <ListService/>
       <ChargeCrypto/>
       <BusinessCrypto/>
+      <ListPriceCrypto/>
     </main>
   )
 }
