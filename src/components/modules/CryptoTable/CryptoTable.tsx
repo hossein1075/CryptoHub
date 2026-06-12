@@ -29,59 +29,60 @@ export default function CryptoTable() {
         },
     ];
 
-
     return (
-        <Table striped highlightOnHover withTableBorder>
+
+        <Table.ScrollContainer minWidth={800}>
+            <Table withRowBorders={false}>
             <Table.Thead>
                 <Table.Tr>
-                    <Table.Th className="text-gray-400 font-medium text-xs">نام ارز</Table.Th>
-                    <Table.Th>قیمت به دلار</Table.Th>
-                    <Table.Th>تغییر روزانه</Table.Th>
-                    <Table.Th>خرید از ما</Table.Th>
-                    <Table.Th>فروش به ما</Table.Th>
-                    <Table.Th>نمودار هفتگی</Table.Th>
+                    <Table.Th className="headerItem">نام ارز</Table.Th>
+                    <Table.Th className="headerItem">قیمت به دلار</Table.Th>
+                    <Table.Th className="headerItem">تغییر روزانه</Table.Th>
+                    <Table.Th className="headerItem">خرید از ما</Table.Th>
+                    <Table.Th className="headerItem">فروش به ما</Table.Th>
+                    <Table.Th className="headerItem">نمودار هفتگی</Table.Th>
                     <Table.Th></Table.Th>
                 </Table.Tr>
             </Table.Thead>
 
             <Table.Tbody>
-                {rows.map((item) => (
-                    <Table.Tr key={item.name}>
+                {rows.map((item,index) => (
+                    <Table.Tr key={item.name} className={`${index % 2 === 0 ? 'bg-white!' : 'bg-gray-50!'} transition-all duration-300 hover:shadow-sm!`}>
                         <Table.Td>
-                            <div>
-                                <div className={`${item.color}`}>
+                            <div className="flex items-center gap-3 justify-start">
+                                <div className={`${item.color} size-8 rounded-full flexCenter text-white text-10px font-bold shadow-sm`}>
                                   {item.firstWordName}
                                 </div>
-                                <div>
-                                    <div>
-                                        <span>{item.nameE}</span>
-                                        <span>{item.name}</span>
+                                <div className="flex flex-col text-right">
+                                    <div className="flex items-center gap-1">
+                                        <span className="font-bold text-gray-800 text-sm">{item.nameE}</span>
+                                        <span className="text-xs text-gray-400">{item.name}</span>
                                     </div>
-                                    <span>{item.nameP}</span>
+                                    <span className="text-11px text-gray-400 mt-0.5">{item.nameP}</span>
                                 </div>
                             </div>
                         </Table.Td>
-                        <Table.Td>
-                            <span>{item.price}</span>
+                        <Table.Td className="font-bold text-gray-800 text-15px">
+                            {item.price}
                         </Table.Td>
 
-                        <Table.Td>
-                            <Badge variant="transparent" color={parseFloat(item.change) > 0.5 ? 'green' : 'red'}>
+                        <Table.Td >
+                            <Badge variant="transparent" className={`${parseFloat(item.change) > 0.5 ? 'text-emerald-400!' : 'text-pink-300!'} text-sm font-medium`}>
 
-                                <span>{item.change}%</span>
+                                {item.change}%
                             </Badge>
                         </Table.Td>
 
-                        <Table.Td>
+                        <Table.Td className="text-center text-sm font-medium">
                             <span>{item.buy}</span>
-                            <div>تومان</div>
+                            <div className="text-10px text-gray-400 mt-0.5">تومان</div>
                         </Table.Td>
-                        <Table.Td>
+                        <Table.Td className="text-center text-sm font-medium">
                             <span>{item.sell}</span>
-                            <div>تومان</div>
+                            <div className="text-10px text-gray-400 mt-0.5">تومان</div>
                         </Table.Td>
 
-                        <Table.Td>
+                        <Table.Td >
 
                             <span>
                                 <svg
@@ -96,8 +97,8 @@ export default function CryptoTable() {
                             </span>
                         </Table.Td>
 
-                        <Table.Td>
-                                <Button size="xs">
+                        <Table.Td >
+                                <Button variant="white" size="xs" className="text-xs! rounded-full! font-normal! text-gray-600! border-2 border-gray-200!">
                                     خرید و فروش
                                 </Button>
                         </Table.Td>
@@ -105,5 +106,6 @@ export default function CryptoTable() {
                 ))}
             </Table.Tbody>
         </Table>
+        </Table.ScrollContainer>
     );
 }

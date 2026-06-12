@@ -5,11 +5,14 @@ import NavBarCryptoPrice from './NavBarCryptoPrice'
 import LogicSidebar from './LogicSidebar'
 function NavBar() {
   return (
-    <header>
+    <>
+    
       <NavBarCryptoPrice />
+    <header className='mt-18'>
       <NavDesktop />
       <LogicSidebar/>
     </header>
+    </>
   )
 }
 

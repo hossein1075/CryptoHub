@@ -4,7 +4,7 @@ import { FaBars } from "react-icons/fa";
 import { IoIosSearch } from 'react-icons/io';
 function NavMobile() {
   return (
-    <nav className='gx:hidden block sticky top-10 z-30'>
+    <nav className='gx:hidden block sticky top-0 z-30'>
       <div className='container'>
         <div className='flex justify-between items-center bg-white border-2 border-white border-solid shadow-[0_10px_40px_rgba(30,64,175,0.10)] font-lahze rounded-2xl px-4 py-3'>
           <div className='flex items-center gap-3'>

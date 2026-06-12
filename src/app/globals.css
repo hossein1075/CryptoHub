@@ -71,6 +71,16 @@
   .navLinkSideBar {
     @apply px-4 py-3 rounded-2xl bg-white/5 hover:bg-white/10 cursor-pointer transition-all duration-300 ease-in-out
   }
+
+  /* table mantine */
+
+
+  .headerItem {
+    @apply text-gray-400 font-medium text-xs 
+  }
+  .headerItem {
+    padding: 24px 16px !important;
+  }
 }
 
 /* elements */
