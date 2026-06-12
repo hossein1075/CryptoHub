@@ -2,6 +2,7 @@ import Advertise from '@/components/template/home/Advertise/Advertise'
 import BusinessCrypto from '@/components/template/home/BusinessCrypto/BusinessCrypto'
 import Calculator from '@/components/template/home/Calculator/Calculator'
 import ChargeCrypto from '@/components/template/home/ChargeCrypto/ChargeCrypto'
+import GifCarts from '@/components/template/home/GifCarts/GifCarts'
 import Introduce from '@/components/template/home/introduce/Introduce'
 import ListPriceCrypto from '@/components/template/home/ListPriceCrypto/ListPriceCrypto'
 import ListService from '@/components/template/home/ListService/ListService'
@@ -17,6 +18,7 @@ function MainHome() {
       <BusinessCrypto/>
       <ListPriceCrypto/>
       <Advertise/>
+      <GifCarts/>
     </main>
   )
 }
