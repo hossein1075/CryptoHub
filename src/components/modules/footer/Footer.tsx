@@ -3,32 +3,27 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { IoIosArrowBack } from 'react-icons/io'
+import SvgBackGroundBox from '../PartsOfFooter/SvgBackGroundBox'
+import InfoCrypto from '../PartsOfFooter/InfoCrypto'
 
 function Footer() {
     return (
         <>
-            <footer>
-                <div className='container'>
+            <footer className='relative bg-white pt-16 pb-6 overflow-hidden border-t border-gray-200 mt-20 font-lahze'>
                     {/* svg background */}
-                    <div>
-                        <div></div>
+                    <div className='absolute inset-0 pointer-events-none flexCenter z-10 opacity-20 overflow-hidden'>
+                        <SvgBackGroundBox/>
+                        <SvgBackGroundBox/>
+                        <SvgBackGroundBox/>
+                        <SvgBackGroundBox/>
                     </div>
-
-                    <div>
+                <div className='container'>
+                    <div className='z-20 relative'>
                         {/* 1 */}
-                        <div>
-                            <div>
-                                <div>
-                                    <svg className="w-5 h-5 text-[#4270FA]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
-                                        </path>
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                    </svg>
-                                    <span>آدرس دفتر مرکزی</span>
-                                </div>
-                                <p>مشهد، بلوار هفتم تیر، مجتمع تجاری آرمیتاژ</p>
-                            </div>
-
+                        <div className='flex flex-col md:flex-row justify-between items-center gap-6 border-b border-gray-100 pb-8 mb-10'>
+                        <InfoCrypto/>
+                        <InfoCrypto/>
+                        <InfoCrypto/>
                         </div>
                         {/* 2 */}
                         <div>
