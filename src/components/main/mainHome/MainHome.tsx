@@ -6,6 +6,7 @@ import GifCarts from '@/components/template/home/GifCarts/GifCarts'
 import Introduce from '@/components/template/home/introduce/Introduce'
 import ListPriceCrypto from '@/components/template/home/ListPriceCrypto/ListPriceCrypto'
 import ListService from '@/components/template/home/ListService/ListService'
+import SignHome from '@/components/template/home/SignHome/SignHome'
 import React from 'react'
 
 function MainHome() {
@@ -19,6 +20,7 @@ function MainHome() {
       <ListPriceCrypto/>
       <Advertise/>
       <GifCarts/>
+      <SignHome/>
     </main>
   )
 }

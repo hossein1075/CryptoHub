@@ -83,6 +83,11 @@
   .headerItem {
     padding: 24px 16px !important;
   }
+
+  /* signHome page */
+  .propertySignHome {
+    @apply flex items-center gap-2
+  }
 }
 
 /* elements */

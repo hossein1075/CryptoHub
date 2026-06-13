@@ -4,7 +4,7 @@ import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 function Calculator() {
     return (
         <>
-            <section className='mt-15 mb-80 font-lahze'>
+            <section className='mt-15 font-lahze'>
                 <div className="container">
                     <h2 className='mb-6 text-lg md:text-xl lg:text-3xl font-extrabold text-slate-700'>ماشین حساب ارز</h2>
 
