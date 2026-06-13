@@ -7,6 +7,8 @@ import SvgBackGroundBox from '../PartsOfFooter/SvgBackGroundBox'
 import InfoCrypto from '../PartsOfFooter/InfoCrypto'
 import QRBtn from '../PartsOfFooter/QRBtn'
 import ListFooter from '../PartsOfFooter/ListFooter'
+import CryptoListFooter from '../PartsOfFooter/CryptoListFooter'
+import CryptoListFooterIcon from '../PartsOfFooter/CryptoListFooterIcon'
 
 function Footer() {
     return (
@@ -28,7 +30,7 @@ function Footer() {
                             <InfoCrypto />
                         </div>
                         {/* 2 */}
-                        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12'>
+                        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 mb-12'>
                             <div className='lg:col-span-2 flex flex-col items-center md:items-start text-center md:text-right'>
                                 <Link href='#' className='flex items-center gap-2 mb-4'>
                                     <div className='size-8 bg-blue-600 rounded-10px flexCenter text-white font-bold text-xl rounded-tr-none'>
@@ -70,21 +72,23 @@ function Footer() {
                             <ListFooter/>
                         </div>
                         {/* 3 */}
-                        <div>
-                            <Link href=''>خرید بیت کوین</Link>
-                            <span>•</span>
+                        <div className='flexCenter flex-wrap lg:justify-start gap-y-3 gap-x-2 text-gray-500  text-xs font-medium mb-6 pt-6 border-t border-gray-100'>
+                            <CryptoListFooter/>
+                            <CryptoListFooter/>
+                            <CryptoListFooter/>
+                            <CryptoListFooter/>
+                            <CryptoListFooter/>
+                            <CryptoListFooter/>
                         </div>
                         {/* 4 */}
-                        <div>
+                        <div className='flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-400'>
                             <p>تمامی حقوق مادی و معنوی محفوظ است.</p>
-                            <div>
-                                <Link href='#'>
-                                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <rect width="18" height="18" x="3" y="3" rx="4" strokeWidth="2"></rect>
-                                        <circle cx="12" cy="12" r="4" strokeWidth="2"></circle>
-                                        <path d="M16.5 7.5v.01" strokeWidth="2"></path>
-                                    </svg>
-                                </Link>
+                            <div className='flex items-center gap-4'>
+                                <CryptoListFooterIcon/>
+                                <CryptoListFooterIcon/>
+                                <CryptoListFooterIcon/>
+                                <CryptoListFooterIcon/>
+                                <CryptoListFooterIcon/>
                             </div>
                         </div>
                     </div>
