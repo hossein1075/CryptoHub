@@ -7,10 +7,10 @@ function AboutTCryto() {
         <section className='mt-15 font-lahze'>
             <div className="container">
                 {/* breadCrumb */}
-                <div>
-                    <Link href='#'>خانه</Link>
+                <div className='pt-8 pb-4 flex flex-wrap items-center gap-2 text-xs font-bold text-gray-400'>
+                    <Link href='#' className='hover:text-blue-600 transition-colors duration-300 ease-linear'>خانه</Link>
                     <span>/</span>
-                    <Link href='#'>درباره ما</Link>
+                    <Link href='#' className='text-blue-600'>درباره ما</Link>
                 </div>
 
                 {/* section */}
