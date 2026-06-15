@@ -27,6 +27,8 @@
    --radius-24px: 1.5rem; 
    --radius-26px: 1.625rem; 
    --radius-32px: 2rem; 
+   --radius-34px: 2.125rem; 
+   --radius-40px: 2.5rem; 
    --radius-45px: 2.8125rem; 
    --text-26px: 1.625rem; 
    --text-10px: 0.625rem; 
@@ -34,6 +36,7 @@
    --text-15px: 0.9375rem; 
    --text-11px: 0.6875rem; 
    --text-28px: 1.75rem; 
+   --text-46px: 2.875rem; 
 }
 
 /* class */
