@@ -7,7 +7,7 @@ function StatusWeb() {
         <section className='mt-15 font-lahze'>
             <div className="container">
                 <TitleSec/>
-                <div>
+                <div className='grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-5'>
                    <StatusWebBox/>
                    <StatusWebBox/>
                    <StatusWebBox/>

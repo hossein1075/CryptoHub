@@ -24,12 +24,12 @@ function AboutTCryto() {
                             <p className='text-sm md:text-15px text-gray-500 leading-8 font-medium max-w-180 mb-8'>تی ارز با هدف ساده‌سازی خرید، فروش و نگهداری ارزهای دیجیتال ایجاد شده است؛ جایی که کاربران بتوانند با اطمینان، سرعت و پشتیبانی واقعی، دارایی‌های دیجیتال خود را مدیریت کنند.</p>
                             <div className='flex flex-col xs:flex-row gap-3'>
 
-                                <Button variant='white' size='lg' w={{ base: 'auto', sm: 160 }} className='shadow-sm w-full hover:shadow-md transition-all duration-300 font-bold'>ارزش‌های ما</Button>
-
-                                <Button size='lg' color='#2563eb' className='shadow-lg shadow-blue-200 font-bold'>
+                                <Button size='lg' color='#2563eb' className='shadow-lg text-13px! font-black! shadow-blue-200 '>
 
                                     داستان ما
                                 </Button>
+                                <Button variant='white' size='lg' className='text-13px! font-black! shadow-[0_14px_28px_rgba(66,112,250,0.28)] w-full hover:shadow-md transition-all duration-300'>ارزش‌های ما</Button>
+
                             </div>
                         </div>
                         <div className='lg:col-span-5'>
