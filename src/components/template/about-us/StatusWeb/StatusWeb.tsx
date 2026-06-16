@@ -1,4 +1,4 @@
-import StatusWebBox from '@/components/modules/StatusWebBox/StatusWebBox'
+import StatusWebBox from '@/components/modules/mainAboutUs/StatusWebBox/StatusWebBox'
 import TitleSec from '@/components/modules/TitleSec/TitleSec'
 import React from 'react'
 

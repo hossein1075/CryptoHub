@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
-import NavBarCryptoPriceBox from '../NavBarCryptoPriceBox/NavBarCryptoPriceBox';
+import NavBarCryptoPriceBox from './NavBarCryptoPriceBox/NavBarCryptoPriceBox';
 function NavBarCryptoPrice() {
   return (
     <>

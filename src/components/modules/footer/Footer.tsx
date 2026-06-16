@@ -3,12 +3,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { IoIosArrowBack } from 'react-icons/io'
-import SvgBackGroundBox from '../PartsOfFooter/SvgBackGroundBox'
-import InfoCrypto from '../PartsOfFooter/InfoCrypto'
-import QRBtn from '../PartsOfFooter/QRBtn'
-import ListFooter from '../PartsOfFooter/ListFooter'
-import CryptoListFooter from '../PartsOfFooter/CryptoListFooter'
-import CryptoListFooterIcon from '../PartsOfFooter/CryptoListFooterIcon'
+import SvgBackGroundBox from './PartsOfFooter/SvgBackGroundBox'
+import InfoCrypto from './PartsOfFooter/InfoCrypto'
+import QRBtn from './PartsOfFooter/QRBtn'
+import ListFooter from './PartsOfFooter/ListFooter'
+import CryptoListFooter from './PartsOfFooter/CryptoListFooter'
+import CryptoListFooterIcon from './PartsOfFooter/CryptoListFooterIcon'
 
 function Footer() {
     return (

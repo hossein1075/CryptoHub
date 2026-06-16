@@ -1,4 +1,4 @@
-import ListServiceBox from '@/components/modules/listServiceBox/ListServiceBox'
+import ListServiceBox from '@/components/modules/MainHome/listServiceBox/ListServiceBox'
 import React from 'react'
 
 function ListService() {

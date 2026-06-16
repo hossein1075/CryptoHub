@@ -1,4 +1,4 @@
-import AboutTCrytoBox from '@/components/modules/AboutTCrytoBox/AboutTCrytoBox'
+import AboutTCrytoBox from '@/components/modules/mainAboutUs/AboutTCrytoBox/AboutTCrytoBox'
 import BreadCrumb from '@/components/modules/BreadCrumb/BreadCrumb'
 import TitleSec from '@/components/modules/TitleSec/TitleSec'
 import { Button } from '@mantine/core'

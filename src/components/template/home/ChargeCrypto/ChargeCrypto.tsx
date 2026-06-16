@@ -1,4 +1,4 @@
-import ChargeCryptoBox from '@/components/modules/ChargeCryptoBox/ChargeCryptoBox'
+import ChargeCryptoBox from '@/components/modules/MainHome/ChargeCryptoBox/ChargeCryptoBox'
 import { Button } from '@mantine/core'
 import React from 'react'
 

@@ -1,4 +1,4 @@
-import BusinessCryptoBox from '@/components/modules/BusinessCryptoBox/BusinessCryptoBox'
+import BusinessCryptoBox from '@/components/modules/MainHome/BusinessCryptoBox/BusinessCryptoBox'
 import { Button } from '@mantine/core'
 import Image from 'next/image'
 import React from 'react'

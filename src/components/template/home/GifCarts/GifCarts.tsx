@@ -1,4 +1,4 @@
-import GifCartsBox from '@/components/modules/GifCartsBox/GifCartsBox'
+import GifCartsBox from '@/components/modules/MainHome/GifCartsBox/GifCartsBox'
 import { Button } from '@mantine/core'
 import { IoIosArrowBack } from 'react-icons/io'
 

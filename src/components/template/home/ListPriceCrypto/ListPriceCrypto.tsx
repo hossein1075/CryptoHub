@@ -1,4 +1,4 @@
-import CryptoTable from '@/components/modules/CryptoTable/CryptoTable'
+import CryptoTable from '@/components/modules/MainHome/CryptoTable/CryptoTable'
 import { Button } from '@mantine/core'
 import React from 'react'
 
