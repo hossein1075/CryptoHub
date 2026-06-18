@@ -26,6 +26,7 @@
    --radius-10px: 0.625rem; 
    --radius-24px: 1.5rem; 
    --radius-26px: 1.625rem; 
+   --radius-28px: 1.75rem; 
    --radius-32px: 2rem; 
    --radius-30px: 1.875rem; 
    --radius-34px: 2.125rem; 
@@ -95,6 +96,21 @@
   /* signHome page */
   .propertySignHome {
     @apply flex items-center gap-2
+  }
+
+  /* Accordian */
+
+  .mantine-Accordion-item {
+    @apply rounded-28px shadow-[0_18px_45px_rgba(15,23,42,0.06)] border border-indigo-50 bg-white p-5 md:p-6 mb-4
+  }
+  .mantine-Accordion-label {
+    @apply text-15px! md:text-base! font-black! text-gray-900!
+  }
+  .mantine-Accordion-item-parent-icon {
+    @apply size-10! rounded-2xl! bg-slate-50! 
+  }
+  .mantine-Accordion-item-icon {
+    @apply text-blue-600!
   }
 }
 

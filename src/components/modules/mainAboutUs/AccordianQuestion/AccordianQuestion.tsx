@@ -22,9 +22,13 @@ function AccordianQuestion() {
       <Accordion.Control
         chevron={
           value === item.value ? (
-            <MinusIcon size={18} />
+            <div className="mantine-Accordion-item-parent-icon flexCenter">
+              <MinusIcon size={20} className="mantine-Accordion-item-icon" />
+            </div>
           ) : (
-            <PlusIcon size={18} />
+            <div className="mantine-Accordion-item-parent-icon flexCenter">
+              <PlusIcon size={20} className="mantine-Accordion-item-icon" />
+            </div>
           )
         }
       >
@@ -32,7 +36,9 @@ function AccordianQuestion() {
       </Accordion.Control>
 
       <Accordion.Panel>
+        <p className="font-lahze text-13px leading-7 font-medium text-gray-500">
         {item.description}
+        </p>
       </Accordion.Panel>
     </Accordion.Item>
   ));
