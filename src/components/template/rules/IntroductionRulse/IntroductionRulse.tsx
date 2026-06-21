@@ -3,7 +3,7 @@ import React from 'react'
 function IntroductionRulse() {
   return (
     <section className='rounded-30px border border-blue-100 bg-white/90 backdrop-blur-xl p-6 md:p-7 shadow-[0_20px_60px_rgba(15,23,42,0.06)] scroll-mt-28'>
-      <div className='flex items-center gap-4 font-lahze'>
+      <div className='flex items-start gap-4 font-lahze'>
         <div className='size-12 rounded-2xl bg-blue-600 text-white flexCenter shrink-0 font-black'>۱</div>
         <div>
           <h3 className='text-xl font-black text-slate-900'>مقدمه و تعاریف</h3>
