@@ -24,13 +24,13 @@ function CostRulse() {
             </div>
           </div>
           <ul className='text-sm space-y-3 text-slate-600 leading-9 font-medium mt-4'>
-            <li className='flex items-center gap-3'>
+            <li className='flex gap-3'>
               <span className='mt-3 size-2 rounded-full bg-emerald-600 shrink-0'></span>
               زمان پردازش تراکنش‌ها بسته به وضعیت شبکه، بررسی امنیتی و سیاست‌های داخلی متفاوت است.            </li>
-            <li className='flex items-center gap-3'>
+            <li className='flex gap-3'>
               <span className='mt-3 size-2 rounded-full bg-emerald-600 shrink-0'></span>
               کارمزدها قبل از ثبت نهایی به کاربر نمایش داده می‌شود و ممکن است بر اساس شبکه تغییر کند.            </li>
-            <li className='flex items-center gap-3'>
+            <li className='flex gap-3'>
               <span className='mt-3 size-2 rounded-full bg-emerald-600 shrink-0'></span>
               درخواست‌های مشکوک ممکن است برای بررسی بیشتر متوقف شوند.
             </li>

@@ -8,19 +8,19 @@ function SignUserRulse() {
         <div>
           <h3 className='text-xl font-black text-slate-900'>ثبت‌نام و حساب کاربری</h3>
           <ul className='text-sm space-y-3 text-slate-600 leading-9 font-medium mt-4'>
-            <li className='flex items-center gap-3'>
+            <li className='flex gap-3'>
               <span className='mt-3 size-2 rounded-full bg-blue-600 shrink-0'></span>
               کاربر موظف است اطلاعات صحیح، کامل و به‌روز در زمان ثبت‌نام ارائه کند.
             </li>
-            <li className='flex items-center gap-3'>
+            <li className='flex gap-3'>
               <span className='mt-3 size-2 rounded-full bg-blue-600 shrink-0'></span>
               مسئولیت حفظ محرمانگی رمز عبور، کدهای امنیتی و دسترسی حساب بر عهده کاربر است.
             </li>
-            <li className='flex items-center gap-3'>
+            <li className='flex gap-3'>
               <span className='mt-3 size-2 rounded-full bg-blue-600 shrink-0'></span>
               هرگونه فعالیت انجام‌شده از طریق حساب کاربری، به عنوان فعالیت مالک حساب تلقی می‌شود.
             </li>
-            <li className='flex items-center gap-3'>
+            <li className='flex gap-3'>
               <span className='mt-3 size-2 rounded-full bg-blue-600 shrink-0'></span>
               پلتفرم می‌تواند در صورت مشاهده رفتار مشکوک، دسترسی حساب را محدود یا موقتاً مسدود کند.
             </li>
