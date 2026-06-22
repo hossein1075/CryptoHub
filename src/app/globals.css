@@ -112,6 +112,17 @@
   .mantine-Accordion-item-icon {
     @apply text-blue-600!
   }
+
+  /* table html Rules page */
+  .tableHead {
+    @apply p-4 text-right font-black
+  }
+  .tableBodyTitle {
+    @apply p-4 text-slate-700 font-bold text-right
+  }
+  .tableBody {
+    @apply p-4 text-slate-600 text-right font-normal
+  }
 }
 
 /* elements */
