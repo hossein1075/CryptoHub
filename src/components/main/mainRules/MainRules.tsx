@@ -1,3 +1,4 @@
+import BannerRules from '@/components/template/rules/BannerRules/BannerRules'
 import CostRulse from '@/components/template/rules/CostRulse/CostRulse'
 import IntroductionRulse from '@/components/template/rules/IntroductionRulse/IntroductionRulse'
 import LimitationRulse from '@/components/template/rules/LimitationRulse/LimitationRulse'
@@ -13,6 +14,7 @@ function MainRules() {
   return (
     <main>
       <div className="container">
+        <BannerRules/>
         <div className='grid grid-cols-1 lg:grid-cols-12 gap-6 py-8'>
         {/* box */}
         <aside className='lg:col-span-4 xl:col-span-3'>
