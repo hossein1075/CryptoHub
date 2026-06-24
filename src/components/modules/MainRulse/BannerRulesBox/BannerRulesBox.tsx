@@ -2,9 +2,9 @@ import React from 'react'
 
 function BannerRulesBox() {
     return (
-        <div>
-            <span>نسخه قوانین</span>
-            <span>v2.4</span>
+        <div className='flex items-center justify-between text-sm'>
+            <span className='text-white/75'>نسخه قوانین</span>
+            <span className='font-black'>v2.4</span>
         </div>
     )
 }
