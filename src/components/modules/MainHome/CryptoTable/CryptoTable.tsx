@@ -73,11 +73,11 @@ export default function CryptoTable() {
                             </Badge>
                         </Table.Td>
 
-                        <Table.Td className="text-center text-sm font-medium">
+                        <Table.Td className=" text-sm font-medium">
                             <span>{item.buy}</span>
                             <div className="text-10px text-gray-400 mt-0.5">تومان</div>
                         </Table.Td>
-                        <Table.Td className="text-center text-sm font-medium">
+                        <Table.Td className=" text-sm font-medium">
                             <span>{item.sell}</span>
                             <div className="text-10px text-gray-400 mt-0.5">تومان</div>
                         </Table.Td>
