@@ -18,7 +18,7 @@ function BannerRules() {
                                 <Link href='#' className='propertySignHome text-sm bg-white text-blue-700 font-black px-6 h-12  rounded-2xl shadow-[0_10px_25px_rgba(255,255,255,0.2)] hover:shadow-[0_15px_35px_rgba(255,255,255,0.4)] hover:scale-105 hover:bg-blue-50 transition-all duration-500 ease-linear'>
                                     مطالعه قوانین
                                 </Link>
-                                <Link href='#' className='propertySignHome text-sm px-6 h-12 bg-white/10  text-white font-black border border-white/30 bg-transparent rounded-2xl hover:bg-white/10 hover:border-white/50 backdrop-blur-sm transition duration-500 ease-linear'>
+                                <Link href='#' className='propertySignHome text-sm px-6 h-12 bg-white/10  text-white font-black border border-white/30 rounded-2xl hover:bg-white/10 hover:border-white/50 backdrop-blur-sm transition duration-500 ease-linear'>
                                     سوالات متداول
                                 </Link>
                             </div>

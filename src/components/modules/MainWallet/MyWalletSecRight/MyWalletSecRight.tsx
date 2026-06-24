@@ -1,4 +1,7 @@
 import React from 'react'
+import MyWalletSecRightBox from '../MyWalletSecRightBox/MyWalletSecRightBox'
+import Link from 'next/link'
+import MyWalletSecRightBtn from '../MyWalletSecRightBtn/MyWalletSecRightBtn'
 
 function MyWalletSecRight() {
     return (
@@ -15,12 +18,22 @@ function MyWalletSecRight() {
                             4000000
                         </h2>
                         <p className='text-sm md:text-15px text-white/85 leading-8 font-medium'>مجموع ارزش دارایی‌های رمزارزی شما بر اساس قیمت تقریبی بازار</p>
-
                     </div>
                     <div className='flexCenter self-start h-12 px-5 rounded-2xl bg-white/10 border border-white/15 text-white text-13px font-black hover:bg-white/15 transition duration-300 ease-in-out'>15000000</div>
                 </div>
-                <div></div>
-                <div></div>
+                <div className='grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-4 mt-8'>
+                    {/* # */}
+                   <MyWalletSecRightBox/>
+                   <MyWalletSecRightBox/>
+                   <MyWalletSecRightBox/>
+                   <MyWalletSecRightBox/>
+                </div>
+                <div className='flex flex-wrap mt-8 gap-3'>
+                    <Link href='#' className='propertySignHome text-sm bg-white text-blue-700 font-black px-6 h-12  rounded-2xl shadow-[0_10px_25px_rgba(255,255,255,0.2)]'>واریز</Link>
+                    <MyWalletSecRightBtn/>
+                    <MyWalletSecRightBtn/>
+                    <MyWalletSecRightBtn/>
+                </div>
             </div>
         </div>
     )
