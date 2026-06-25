@@ -1,3 +1,4 @@
+import AssestTable from '@/components/modules/MainWallet/AssestTable/AssestTable'
 import React from 'react'
 
 function Assest() {
@@ -14,7 +15,7 @@ function Assest() {
                             <input type="text" placeholder="جستجو در دارایی‌ها..." className='w-full md:w-70 h-12 rounded-2xl border border-gray-200 bg-slate-50 px-4 text-sm! outline-none focus:border-blue-600 focus:ring-4 focus:ring-blue-600/10'/>
                         </div>
                     </div>
-                    <div></div>
+                    <AssestTable/>
                 </div>
             </div>
         </section>
