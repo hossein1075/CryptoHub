@@ -19,7 +19,7 @@ function MyWalletSecRight() {
                         </h2>
                         <p className='text-sm md:text-15px text-white/85 leading-8 font-medium'>مجموع ارزش دارایی‌های رمزارزی شما بر اساس قیمت تقریبی بازار</p>
                     </div>
-                    <div className='flexCenter self-start h-12 px-5 rounded-2xl bg-white/10 border border-white/15 text-white text-13px font-black hover:bg-white/15 transition duration-300 ease-in-out'>15000000</div>
+                    <div className='flexCenter self-start h-12 px-5 rounded-2xl bg-white/10 border border-white/15 text-white text-13px font-black hover:bg-white/15 transition duration-300 ease-in-out'></div>
                 </div>
                 <div className='grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-4 mt-8'>
                     {/* # */}
