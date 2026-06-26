@@ -1,12 +1,11 @@
 import AboutTCrytoBox from '@/components/modules/mainAboutUs/AboutTCrytoBox/AboutTCrytoBox'
 import TitleSec from '@/components/modules/TitleSec/TitleSec'
 import { Button } from '@mantine/core'
-import Link from 'next/link'
 import React from 'react'
 
-function AboutTCryto() {
-    return (
-        <section className='mt-5 font-lahze'>
+function ContactSupport() {
+  return (
+     <section className='mt-5 font-lahze'>
             <div className="container">
             
                 {/* section */}
@@ -18,15 +17,15 @@ function AboutTCryto() {
                     <div className='relative grid grid-cols-1 lg:grid-cols-12 gap-12 items-center p-6 md:p-10 lg:p-12'>
                         <div className='lg:col-span-7'>
                             <TitleSec />
-                            <h1 className='text-3xl md:text-46px font-black leading-[1.8] mb-5'>ساختن تجربه‌ای ساده، امن و سریع برای ورود به دنیای ارزهای دیجیتال</h1>
-                            <p className='text-sm md:text-15px text-gray-500 leading-8 font-medium max-w-180 mb-8'>تی ارز با هدف ساده‌سازی خرید، فروش و نگهداری ارزهای دیجیتال ایجاد شده است؛ جایی که کاربران بتوانند با اطمینان، سرعت و پشتیبانی واقعی، دارایی‌های دیجیتال خود را مدیریت کنند.</p>
+                            <h1 className='text-3xl md:text-46px font-black leading-[1.8] mb-5'>هر سوالی دارید، ما کنار شما هستیم</h1>
+                            <p className='text-sm md:text-15px text-gray-500 leading-8 font-medium max-w-180 mb-8'>برای دریافت راهنمایی درباره خرید و فروش ارز دیجیتال، احراز هویت، واریز و برداشت یا هر موضوع دیگر، می‌توانید از طریق فرم تماس یا راه‌های ارتباطی زیر با تیم پشتیبانی تی ارز در ارتباط باشید.</p>
                             <div className='flex flex-col xs:flex-row gap-3'>
 
                                 <Button size='lg' color='#2563eb' className='shadow-lg text-13px! font-black! shadow-blue-200 '>
 
-                                    داستان ما
+                                    ارسال پیام 
                                 </Button>
-                                <Button variant='white' size='lg' className='text-13px! font-black! shadow-[0_14px_28px_rgba(66,112,250,0.28)] w-full hover:shadow-md transition-all duration-300'>ارزش‌های ما</Button>
+                                <Button variant='white' size='lg' className='text-13px! font-black! shadow-[0_14px_28px_rgba(66,112,250,0.28)] w-full hover:shadow-md transition-all duration-300'>راه‌های ارتباطی</Button>
 
                             </div>
                         </div>
@@ -42,8 +41,8 @@ function AboutTCryto() {
                                                 <path d="M9 12l2 2 4-5"></path>
                                             </svg>
                                         </div>
-                                        <h2 className='text-2xl font-black mb-3 leading-10'>اعتماد، امنیت و شفافیت</h2>
-                                        <p className='text-13px leading-7 text-white/80 font-medium mb-6'>تمرکز ما روی ایجاد زیرساختی پایدار، امن و قابل اعتماد برای کاربران است؛ از احراز هویت تا نگهداری دارایی و پشتیبانی.</p>
+                                        <h2 className='text-2xl font-black mb-3 leading-10'>پاسخگویی سریع و دقیق</h2>
+                                        <p className='text-13px leading-7 text-white/80 font-medium mb-6'>درخواست‌های شما توسط تیم پشتیبانی بررسی می‌شود و در کوتاه‌ترین زمان ممکن پاسخ داده خواهد شد.</p>
                                         <div className='grid grid-cols-2 gap-3 '>
                                             {/* # */}
                                             <AboutTCrytoBox/>
@@ -58,8 +57,8 @@ function AboutTCryto() {
                                         </svg>
                                     </span>
                                     <div>
-                                        <p className='text-13px font-black text-gray-900'>همراه کاربران</p>
-                                        <p className='text-11px font-bold text-gray-400'>در مسیر اقتصاد دیجیتال</p>
+                                        <p className='text-13px font-black text-gray-900'>درخواست ثبت شد</p>
+                                        <p className='text-11px font-bold text-gray-400'>پیگیری توسط پشتیبانی</p>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +67,7 @@ function AboutTCryto() {
                 </div>
             </div>
         </section>
-    )
+  )
 }
 
-export default AboutTCryto
+export default ContactSupport

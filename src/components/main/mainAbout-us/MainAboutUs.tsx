@@ -1,3 +1,4 @@
+import BreadCrumb from '@/components/modules/BreadCrumb/BreadCrumb'
 import AboutTCryto from '@/components/template/about-us/AboutTCrypto/AboutTCryto'
 import ContactFooter from '@/components/template/about-us/ContactFooter/ContactFooter'
 import QuestionWeb from '@/components/template/about-us/QuestionWeb/QuestionWeb'
@@ -10,6 +11,8 @@ import React from 'react'
 function MainAboutUs() {
   return (
     <main>
+     <div className="container">
+       <BreadCrumb/>
       <AboutTCryto />
       <StatusWeb/>
       <ValuesWeb/>
@@ -17,6 +20,7 @@ function MainAboutUs() {
       <TrustSecurity/>
       <QuestionWeb/>
       <ContactFooter/>
+     </div>
     </main>
   )
 }

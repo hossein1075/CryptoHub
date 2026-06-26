@@ -1,11 +1,13 @@
+
 import BannerRulesBox from '@/components/modules/MainRulse/BannerRulesBox/BannerRulesBox'
 import Link from 'next/link'
 import React from 'react'
 
 function BannerRules() {
     return (
-        <section className='mt-15 font-lahze'>
+        <section className='mt-5 font-lahze'>
             <div className="container">
+
                 <div className='relative w-full rounded-34px overflow-hidden shadow-[0_25px_70px_rgba(37,99,235,0.28)] bg-linear-to-br from-blue-600 via-blue-700 to-indigo-800 text-white p-6 md:p-9'>
                     <div className='relative grid grid-cols-1 lg:grid-cols-12 gap-8 items-center'>
                         <div className='lg:col-span-8'>
