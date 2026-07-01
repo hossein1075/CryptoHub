@@ -1,4 +1,5 @@
 import AboutTCrytoBox from '@/components/modules/mainAboutUs/AboutTCrytoBox/AboutTCrytoBox'
+import ContactSupportBox from '@/components/modules/MainSupport/ContactSupportBox/ContactSupportBox'
 import TitleSec from '@/components/modules/TitleSec/TitleSec'
 import { Button } from '@mantine/core'
 import React from 'react'
@@ -64,6 +65,13 @@ function ContactSupport() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className='pt-14 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5'>
+                    {/*  */}
+                    <ContactSupportBox/>
+                    <ContactSupportBox/>
+                    <ContactSupportBox/>
+                    <ContactSupportBox/>
                 </div>
             </div>
         </section>

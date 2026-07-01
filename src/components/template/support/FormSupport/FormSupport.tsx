@@ -7,7 +7,7 @@ import React from 'react'
 
 function FormSupport() {
     return (
-        <section className='mt-5 font-lahze'>
+        <section className='mt-15 font-lahze'>
             <div className="container">
                 <div className='grid lg:grid-cols-12 gap-12 items-start'>
                     {/* from */}
