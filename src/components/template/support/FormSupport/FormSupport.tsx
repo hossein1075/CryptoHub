@@ -1,4 +1,8 @@
+import SocialSupport from '@/components/modules/MainSupport/FormSupportBox/SocialSupport'
+import SupportOnline from '@/components/modules/MainSupport/FormSupportBox/SupportOnline'
+import WorkingSupport from '@/components/modules/MainSupport/FormSupportBox/WorkingSupport'
 import TitleSec from '@/components/modules/TitleSec/TitleSec'
+import { Button } from '@mantine/core'
 import React from 'react'
 
 function FormSupport() {
@@ -26,17 +30,17 @@ function FormSupport() {
                                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                                     <div>
                                         <label className='block font-black text-13px text-gray-700 mb-2'>نام و نام خانوادگی</label>
-                                        <input type="text" placeholder='مثلاً علی رضایی' className='w-full h-13 rounded-2xl border border-indigo-50 bg-slate-50 px-4 text-13px! font-medium text-gray-900 outline-none focus:border-blue-600 focus:bg-white transition duration-300 ease-in-out'/>
+                                        <input type="text" placeholder='مثلاً علی رضایی' className='w-full h-13 rounded-2xl border border-indigo-50 bg-slate-50 px-4 text-13px! font-medium text-gray-900 outline-none focus:border-blue-600 focus:bg-white transition duration-300 ease-in-out' />
                                     </div>
                                     <div>
                                         <label className='block font-black text-13px text-gray-700 mb-2'>شماره موبایل</label>
-                                        <input type="text" placeholder='مثلاً 09123456789' className='w-full h-13 rounded-2xl border border-indigo-50 bg-slate-50 px-4 text-13px! font-medium text-gray-900 outline-none focus:border-blue-600 focus:bg-white transition duration-300 ease-in-out'/>
+                                        <input type="text" placeholder='مثلاً 09123456789' className='w-full h-13 rounded-2xl border border-indigo-50 bg-slate-50 px-4 text-13px! font-medium text-gray-900 outline-none focus:border-blue-600 focus:bg-white transition duration-300 ease-in-out' />
                                     </div>
                                 </div>
                                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                                     <div>
                                         <label className='block font-black text-13px text-gray-700 mb-2'>ایمیل</label>
-                                        <input type="text" placeholder='example@email.com' className='w-full h-13 rounded-2xl border border-indigo-50 bg-slate-50 px-4 text-13px! font-medium text-gray-900 outline-none focus:border-blue-600 focus:bg-white transition duration-300 ease-in-out'/>
+                                        <input type="text" placeholder='example@email.com' className='w-full h-13 rounded-2xl border border-indigo-50 bg-slate-50 px-4 text-13px! font-medium text-gray-900 outline-none focus:border-blue-600 focus:bg-white transition duration-300 ease-in-out' />
                                     </div>
                                     <div>
                                         <label className='block font-black text-13px text-gray-700 mb-2'>موضوع پیام</label>
@@ -50,18 +54,31 @@ function FormSupport() {
                                         </select>
                                     </div>
                                 </div>
-                                 <div>
+                                <div>
                                     <div>
                                         <label className='block font-black text-13px text-gray-700 mb-2'>متن پیام</label>
-                                        <textarea rows={7} placeholder='پیام خود را اینجا بنویسید...' className='w-full rounded-2xl border border-indigo-50 bg-slate-50 p-4 text-13px! font-medium text-gray-900 outline-none leading-8 focus:border-blue-600 focus:bg-white transition duration-300 ease-in-out'/>
+                                        <textarea rows={7} placeholder='پیام خود را اینجا بنویسید...' className='w-full rounded-2xl border border-indigo-50 bg-slate-50 p-4 text-13px! font-medium text-gray-900 outline-none leading-8 focus:border-blue-600 focus:bg-white transition duration-300 ease-in-out' />
                                     </div>
-                                    
+                                    <div className='flex flex-col md:flex-row md:justify-between gap-4 pt-2'>
+                                        <label className='flex items-start gap-3 cursor-pointer'>
+                                            <input type="checkbox" className='mt-1 accent-blue-600' />
+                                            <span className='text-xs leading-6 font-bold text-gray-500'>تأیید می‌کنم اطلاعات واردشده صحیح است و برای پیگیری درخواست با من تماس گرفته شود.</span>
+                                        </label>
+                                        <Button size='lg' type='submit' color='#2563eb' className='shadow-lg rounded-2xl! text-13px! font-black! shadow-blue-200 '>
+
+                                            ارسال پیام
+                                        </Button>
+                                    </div>
                                 </div>
                             </form>
                         </div>
                     </div>
                     {/* aside */}
-                    <div></div>
+                    <div className='lg:col-span-4 space-y-6'>
+                        <SupportOnline/>
+                        <WorkingSupport/>
+                        <SocialSupport/>
+                    </div>
                 </div>
             </div>
         </section>
