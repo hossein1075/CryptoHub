@@ -57,7 +57,7 @@ function FormSupport() {
                                 <div>
                                     <div>
                                         <label className='block font-black text-13px text-gray-700 mb-2'>متن پیام</label>
-                                        <textarea rows={7} placeholder='پیام خود را اینجا بنویسید...' className='w-full rounded-2xl border border-indigo-50 bg-slate-50 p-4 text-13px! font-medium text-gray-900 outline-none leading-8 focus:border-blue-600 focus:bg-white transition duration-300 ease-in-out' />
+                                        <textarea rows={14} placeholder='پیام خود را اینجا بنویسید...' className='w-full resize-none rounded-2xl border border-indigo-50 bg-slate-50 p-4 text-13px! font-medium text-gray-900 outline-none leading-8 focus:border-blue-600 focus:bg-white transition duration-300 ease-in-out' />
                                     </div>
                                     <div className='flex flex-col md:flex-row md:justify-between gap-4 pt-2'>
                                         <label className='flex items-start gap-3 cursor-pointer'>
