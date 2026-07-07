@@ -167,6 +167,13 @@
   background-color: #eff6ff !important;
 }
 
+/* support guidSupport section */
+.beforeGuidSupport::before {
+  position: absolute;
+  content: '';
+  right: -12px;
+  
+}
 /* scroll aside support guidSupport section */
 .custom-scrollbar {
   overflow-y: auto;
