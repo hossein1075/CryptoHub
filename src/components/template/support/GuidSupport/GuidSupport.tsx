@@ -73,10 +73,34 @@ function GuidSupport() {
                 <div>
                   <h3 className='text-xl md:text-2xl font-bold mb-5 text-slate-700'>آشنایی با انواع ارز دیجیتال و کاربرد آن‌ها</h3>
                   <p className='leading-loose text-justify mb-4'>
-                     بازار رمز ارزها بسیار گسترده است و هر پروژه با هدف خاصی ایجاد شده است. شناخت این دسته‌ها به شما کمک می‌کند تا<strong className='text-slate-700'>سبد سرمایه‌گذاری </strong>(پورتفوی) متنوعی از <strong className='text-slate-700'>ارزهای دیجیتال</strong> در مارکت داشته باشید:
+                    بازار رمز ارزها بسیار گسترده است و هر پروژه با هدف خاصی ایجاد شده است. شناخت این دسته‌ها به شما کمک می‌کند تا<strong className='text-slate-700'>سبد سرمایه‌گذاری </strong>(پورتفوی) متنوعی از <strong className='text-slate-700'>ارزهای دیجیتال</strong> در مارکت داشته باشید:
                   </p>
                   <ul className='space-y-4 leading-loose pr-4'>
-                    <li className='relative beforeGuidSupport size-1.5 bg-blue-600 rounded-full -top-3.5'></li>
+                    <li className='relative beforeGuidSupport'>
+                      <strong className='text-slate-700'> پادشاه بازار (Bitcoin)</strong>: اولین رمز ارز جهان که به عنوان <strong className='text-slate-700'>"طلای دیجیتال"</strong> شناخته می‌شود. اگر قصد سرمایه‌گذاری بلندمدت دارید،
+                      <Link href='#' className='inline-flex items-center gap-1 font-medium hover:underline text-blue-600'>
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1">
+                          </path>
+                        </svg>
+                        خرید بیت کوین
+                      </Link>
+                      معتبرترین انتخاب است.
+                    </li>
+                    <li className='relative beforeGuidSupport'>
+                      <strong className='text-slate-700'>آلت‌کوین‌ها (Altcoins):</strong> پروژه‌هایی مانند <strong className='text-slate-700'>اتریوم، سولانا و کاردانو</strong> که هدفشان هوشمندسازی قراردادها و ایجاد اپلیکیشن‌های غیرمتمرکز است.
+                    </li>
+                    <li className='relative beforeGuidSupport'>
+                      <strong className='text-slate-700'>استیبل‌کوین‌ها (Stablecoins):</strong> ارزهایی با قیمت ثابت. برای مثال، با
+                      <Link href='#' className='inline-flex items-center gap-1 font-medium hover:underline text-blue-600'>
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1">
+                          </path>
+                        </svg>
+                        خرید تتر
+                      </Link>
+                      شما در واقع دلار دیجیتال در اختیار دارید که از نوسانات شدید بازار در امان است و نقدینگی شما را حفظ می‌کند.
+                    </li>
                   </ul>
                 </div>
 

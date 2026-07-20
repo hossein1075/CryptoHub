@@ -172,6 +172,11 @@
   position: absolute;
   content: '';
   right: -12px;
+  width: 6px;
+  height: 6px;
+  top: 14px;
+  background-color: #155dfc;
+  border-radius: 100%;
   
 }
 /* scroll aside support guidSupport section */
